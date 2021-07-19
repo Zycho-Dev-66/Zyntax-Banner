@@ -83,9 +83,9 @@ if [ $pass -eq 1355 ]
 then
         figlet Done !| lolcat
         echo -e $GR "The Banner Has been set..."
-        echo -e $GR "please restart the termux application or o>
+        echo -e $GR "please restart the termux application or start a new session"
 else
-        echo -e $RD "Unable to setup because of the wrong crede>
+        echo -e $RD "Unable to setup because of the wrong credentials"
 fi
 
 echo -e $GR "Theme Zyntax v 1.0 by FAKE SMILE"
