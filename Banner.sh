@@ -52,13 +52,13 @@ echo -e $RD"Enter The password provided by Zyntax™"
 read pass
 if [ $pass -eq 1355 ]
 then
-        cat "clear.txt" >>/data/data/com.termux/files/usr/etc/b>
+        cat "clear.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
-        cat "banner.txt" >>/data/data/com.termux/files/usr/etc/>
+        cat "banner.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
-        cat "name.txt" >>/data/data/com.termux/files/usr/etc/ba>
+        cat "name.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
-        cat "mark.txt" >>/data/data/com.termux/files/usr/etc/ba>
+        cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 else
         echo -e $RD"Invalid Password!"
 fi
