@@ -97,5 +97,7 @@ fi
 
 echo -e $GR "Theme Zyntax v 1.1 by FAKE SMILE"
 
+cd $HOME
+rm -rf termux-style
 sleep 2
 exit
