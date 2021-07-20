@@ -54,28 +54,23 @@ then
         cat "name.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
         cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
-        
-        echo -e $GR "Do you want to change the termux theme..?(Enter 1 if you want..)"
-        read theme
-        if [ $theme -eq 1 ]
-        then
-                git clone https://github.com/adi1090x/termux-banner
-                cd termux-style
-                chmod +x *
-                bash install
-                termux-style
-                termux-style
-        else
-                echo -e $RD "Aborted Theme Setup..."
-        fi
+        cd $HOME
+        git clone https://github.com/adi1090x/termux-banner
+        cd termux-style
+        chmod +x *
+        bash install
+        termux-style
+        termux-style
 else
         echo -e $RD"Invalid Password!"
 fi
 
+cd $HOME
 rm -rf clear.txt
 rm -rf name.txt
 rm -rf mark.txt
 rm -rf bash.bashrc
+rm -rf termux-style
 
 cd
 cd ..
