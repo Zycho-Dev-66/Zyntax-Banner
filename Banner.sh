@@ -17,12 +17,7 @@ pkg install ruby -y
 pkg install python -y
 pkg install figlet -y
 gem install lolcat
-git clone git clone https://github.com/adi1090x/termux-style
-cd termux-style
-chmod +x *
-bash install
-termux-style
-termux-style
+
 cd $HOME
 cd Zyntax-Banner
 
