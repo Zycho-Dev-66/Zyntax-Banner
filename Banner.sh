@@ -54,7 +54,8 @@ then
         cat "name.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
         cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
-echo -e $GR "Do you want to change the termux theme..?(Enter 1 if you want..)"
+        
+        echo -e $GR "Do you want to change the termux theme..?(Enter 1 if you want..)"
         read theme
         if [$theme -eq 1]
                 git clone https://github.com/adi1090x/termux-banner
