@@ -59,6 +59,18 @@ then
         cat "name.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
 
         cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
+echo -e $GR "Do you want to change the termux theme..?(Enter 1 if you want..)"
+        read theme
+        if [$theme -eq 1]
+                git clone https://github.com/adi1090x/termux-banner
+                cd termux-style
+                chmod +x *
+                bash install
+                termux-style
+                termux-style
+        else
+                echo -e $RD "Aborted Theme Setup..."
+        fi
 else
         echo -e $RD"Invalid Password!"
 fi
@@ -88,7 +100,7 @@ else
         echo -e $RD "Unable to setup because of the wrong credentials"
 fi
 
-echo -e $GR "Theme Zyntax v 1.0 by FAKE SMILE"
+echo -e $GR "Theme Zyntax v 1.1 by FAKE SMILE"
 
 sleep 2
 exit
