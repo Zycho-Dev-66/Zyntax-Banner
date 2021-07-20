@@ -58,6 +58,7 @@ then
         echo -e $GR "Do you want to change the termux theme..?(Enter 1 if you want..)"
         read theme
         if [$theme -eq 1]
+        then
                 git clone https://github.com/adi1090x/termux-banner
                 cd termux-style
                 chmod +x *
