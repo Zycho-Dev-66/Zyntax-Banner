@@ -21,9 +21,6 @@ gem install lolcat
 cd $HOME
 cd Zyntax-Banner
 
-#colour codes ANSI
-echo -e $GR "The Colour Themes Have Been Set.."
-
 echo
 clear
 figlet Theme | lolcat
@@ -55,12 +52,14 @@ then
 
         cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
         cd $HOME
-        git clone https://github.com/adi1090x/termux-banner
+        git clone git clone https://github.com/adi1090x/termux-style
         cd termux-style
         chmod +x *
         bash install
         termux-style
         termux-style
+        echo -e $GR "The Colour Themes Have Been Set.."
+
 else
         echo -e $RD"Invalid Password!"
 fi
