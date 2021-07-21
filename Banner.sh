@@ -52,7 +52,7 @@ then
 
         cat "mark.txt" >>/data/data/com.termux/files/usr/etc/bash.bashrc
         cd $HOME
-        git clone git clone https://github.com/adi1090x/termux-style
+        git clone https://github.com/adi1090x/termux-style
         cd termux-style
         chmod +x *
         bash install
@@ -64,7 +64,6 @@ else
         echo -e $RD"Invalid Password!"
 fi
 
-cd $HOME
 rm -rf clear.txt
 rm -rf name.txt
 rm -rf mark.txt
