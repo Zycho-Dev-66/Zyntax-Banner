@@ -36,8 +36,8 @@ QQQQQQQQQQQQQ    QQQQQQ     QQQQQQQQQQQQQQ   QQ     QQQQ   QQQQ
 
 sleep 2
 clear
-echo -e $RD"ĹÊĞĔŃĐ ÎŠ BĻÅČĶ HĀŤ  HÆĆĶÈŔ "
-echo -e $RD"ÎČØÑĪĆ 😇 "
+echo -e $RD"POWERED BY ZYNTAX™"
+echo -e $RD"FAKE#SMILE"
 
 echo -e "
                       QQQQQQQQQQQQQ  QQQQQQQQQQ
