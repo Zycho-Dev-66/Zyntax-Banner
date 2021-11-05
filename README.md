@@ -1,6 +1,8 @@
 # Zyntax-Banner
+
 :wink: Simple yet attractive banner for the termux home.. :wink:
-:heart: Developed and maintained by Zycho-Dev
+
+:heart: Developed and maintained by Zycho-Dev :heart:
 
 # Requirements
 
