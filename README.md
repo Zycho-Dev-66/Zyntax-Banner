@@ -1,21 +1,36 @@
 # Zyntax-Banner
-Simple but attractive banner for the termux home..
+:wink: Simple yet attractive banner for the termux home.. :wink:
+:heart: Developed and maintained by Zycho-Dev
 
-:heart: COMMANDS FOR TERMUX
+# Requirements
 
->>
-git clone https://github.com/Codemaster-xvi/Zyntax-Banner
->>
+Git Package
+
+```bash
+pkg install git -y
+```
+
+# Commands
+
+:heart: One-By-One :heart:
+
+```bash
+
+git clone https://github.com/Zycho-Dev-66/Zyntax-Banner
+
 cd Zyntax-Banner
->>
+
 chmod +x *
->>
+
 bash Banner.sh
->>
+
+```
+
 :heart: ONE-LINE COMMAND
->>
-git clone https://github.com/Codemaster-xvi/Zyntax-Banner && cd Zyntax-Banner && chmod +x && bash Banner.sh
->>
+
+```bash
+git clone https://github.com/Zycho-Dev-66/Zyntax-Banner && cd Zyntax-Banner && chmod +x && bash Banner.sh
+```
 Thank you!!!
 >>
 :heart:
